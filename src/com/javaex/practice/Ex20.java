@@ -1,4 +1,5 @@
 package com.javaex.practice;
+import java.util.Random;
 import java.util.Scanner;
 /*아래와 설명에 맞는 프로그램을 작성하세요
 숨겨진 숫자를 맞추는 게임입니다.
@@ -13,6 +14,13 @@ public class Ex20 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
+		
+		/*
+		Random rd = new Random();
+		int score = rd.nextInt(100) + 1;
+		//System.out.println(score);
+		*/
+		
 		
 		final int score = 5;
 		boolean game = true;
@@ -31,24 +39,18 @@ public class Ex20 {
 				System.out.print("맞췄습니다.\n게임을 종료하시겠습니까?(y/n) >>");
 				String r = sc.nextLine();
 				
-				
-				
 				if (r.equals("y")) {
 					System.out.println("========================");
 					System.out.println("    [숫자맞추기게임 종료]   ");
 					System.out.println("========================");
-					game = false;
+					//game = false;
 					break;
-					
 					
 				} else if (r.equals("n")) {
-					game = false;
-					break;
+					System.out.println("게임이 새로 시작됩니다.");
+					System.out.print(">>");
+					n = sc.nextInt();
 				}
-				
-				
-				
-				
 				
 				
 			} else if ( n < score ) {

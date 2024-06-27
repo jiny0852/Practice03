@@ -17,6 +17,7 @@ public class Ex05 {
 			i=i+1;
 		}
 		
+		
 	}
 
 }
