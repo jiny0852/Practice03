@@ -14,8 +14,19 @@ public class Ex04 {
 		for(int i=10 ; i>0 ; i=i-2) {
 			System.out.println(i);
 		}
+		/*
+		1
+		2
+		3
+		4
+		=========
+		10
+		8
+		6
+		4
+		2
+		*/
 		
-		sdsd
 	}
 
 }

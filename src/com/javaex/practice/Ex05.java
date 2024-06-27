@@ -16,7 +16,6 @@ public class Ex05 {
 			System.out.println(i);
 			i=i+1;
 		}
-		sdsdsd
 		
 	}
 

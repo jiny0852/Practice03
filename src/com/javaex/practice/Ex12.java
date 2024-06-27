@@ -11,12 +11,13 @@ public class Ex12 {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("숫자를 입력하세요 : ");
 		int n = sc.nextInt();
+		int r = 1;
 		
 		for(int i = 1; i<=n ;i++) {
-			
+			r = r*i;
 		}
 		
-		
+		System.out.println("결과값 : " + r);
 		
 		
 		sc.close();

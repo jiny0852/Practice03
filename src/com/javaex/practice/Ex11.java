@@ -22,7 +22,7 @@ public class Ex11 {
 			System.out.println("결과값 : " + r);
 			
 		} else { //짝수
-			for(int i = 2; i <=n; i++) {
+			for(int i = 2; i <=n; i++) {                
 				r = r+i;
 				i++;
 			}
