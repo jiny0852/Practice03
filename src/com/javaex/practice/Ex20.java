@@ -27,9 +27,10 @@ public class Ex20 {
 			
 			if (n == score) {
 				
+				sc.nextLine();
 				System.out.print("맞췄습니다.\n게임을 종료하시겠습니까?(y/n) >>");
 				String r = sc.nextLine();
-				//sc.nextLine();
+				
 				
 				
 				if (r.equals("y")) {
